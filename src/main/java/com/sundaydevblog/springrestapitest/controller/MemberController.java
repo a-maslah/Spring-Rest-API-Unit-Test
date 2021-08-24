@@ -74,5 +74,10 @@ public class MemberController {
     public String sayHi(){
         return "Say hello to my little friend, Jenkins!";
     }
+     @GetMapping(value = "/test")
+    public String sayHey(){
+        return "Heelo Devops jenkins CICD";
+    }
+
 
 }
