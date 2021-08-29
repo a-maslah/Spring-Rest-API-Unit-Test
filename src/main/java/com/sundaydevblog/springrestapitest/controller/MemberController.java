@@ -76,7 +76,7 @@ public class MemberController {
     }
      @GetMapping(value = "/test")
     public String sayHey(){
-        return "Heelo Devops jenkins CICD ssssssssssssss";
+        return "Heelo Devops jenkins CICD Learn";
     }
 
 
